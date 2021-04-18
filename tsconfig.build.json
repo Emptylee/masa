@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "esnext", //我们目前用的模块格式
+    "target": "es5", //目标代码是什么标准
+    "declaration": true, //为每个js文件生生.d.ts文件 方便校验和代码提示
+    "jsx": "react", //编译后可以用createElement代替jsx
+    "moduleResolution": "node", //寻找文件的路径的方式
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src"],
+  "exclude": ["src/**/*.test.tsx", "src/**/*.stories.tsx"]
+}

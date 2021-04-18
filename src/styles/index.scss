@@ -1,0 +1,17 @@
+//config 基本的颜色 大小 字体等配置 用scss变量的形式
+@import "variables";
+
+//layout 修改自normalize.css
+@import "reboot";
+
+//mixin
+@import "mixin";
+
+//button
+@import "../components/Button/style";
+
+//Menu
+@import "../components/Menu/style";
+
+//Icon
+@import "../components/Icon/style";

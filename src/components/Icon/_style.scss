@@ -1,0 +1,6 @@
+//使用scss的循环的方法 把各种class 平铺在这里
+@each $key, $val in $theme-colors {
+  .icon-#{$key} {
+    color: $val;
+  }
+}
